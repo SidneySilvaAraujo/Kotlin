@@ -1,6 +1,16 @@
+class Conta {
+    var titular = ""
+    var numero = 0
+    var saldo = 0.0
+}
+
 fun main() {
-    for(i in 10 downTo 1) {
-println(i)
-    }
+val contaSidney = Conta()
+    contaSidney.titular = "Sidney"
+    contaSidney.numero = 1234
+    contaSidney.saldo = 10000.0
+    println(contaSidney.titular)
+    println(contaSidney.numero)
+    println(contaSidney.saldo)
 }
 
